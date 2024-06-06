@@ -4,6 +4,29 @@ All notable changes to this package will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.2.2] - 2024-03-21
+### Changed 
+- Updated to SteamVR SDK 2.2.3
+
+## [1.2.1] - 2024-01-11
+### Changed 
+- Updated to SteamVR SDK 2.0.10
+
+## [1.2.0] - 2023-08-24
+### Added 
+- Added limited OpenGL support (multipass only)
+### Changed 
+- Updated to SteamVR SDK 1.26.7
+- Fix for unity projects set to binary serialization
+- Fix for unnecessary preinit #80
+- Fix for incorrect reporting of eye position #86
+- Fix for broken depth textures in some situations #110
+- Fix for multipass not working on some render pipelines 
+
+## [1.1.5] - 2021-11-08
+### Changed 
+- Fixed issue with unicode paths / project names not working #108
+
 ## [1.1.4] - 2021-01-07
 ### Changed 
 - Refixed issue with general builds crashing #52
