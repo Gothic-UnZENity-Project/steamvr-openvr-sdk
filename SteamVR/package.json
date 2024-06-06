@@ -17,9 +17,6 @@
     "sdk",
     "valve"
   ],
-  "dependencies": {
-    "com.valvesoftware.unity.openvr": "1.1.4"
-  },
   "author": "Valve Corporation",
   "hideInEditor": false,
   "homepage": "https://github.com/ValveSoftware/steamvr_unity_plugin",
