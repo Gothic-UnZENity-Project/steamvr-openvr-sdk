@@ -108,12 +108,6 @@ namespace Valve.VR
 
 #if UNITY_EDITOR
                     string localFolderPath = SteamVR.GetSteamVRResourcesFolderPath(true);
-
-                    if (!System.IO.Directory.Exists(localFolderPath)) {
-                        Debug.LogWarning($"<b>[SteamVR]</b> Path '{localFolderPath}' did not exist; creating ...");
-                        System.IO.Directory.CreateDirectory(localFolderPath);
-                    }
-
                     string assetPath = System.IO.Path.Combine(localFolderPath, "SteamVR_Settings.asset");
 
                     UnityEditor.AssetDatabase.CreateAsset(_instance, assetPath);
